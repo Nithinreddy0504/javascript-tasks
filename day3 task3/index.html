@@ -19,8 +19,10 @@
 
 
     <script>
+
+        // calculator......................
         num1=+(prompt("enter the number"));
-        num2=+(prompt("enter the number"));
+        num2=+(prompt("enter the second  number"));
         op=String(prompt("enter the operation"))
         switch(op){
             case "-":console.log(num1-num2);
@@ -35,6 +37,9 @@
 
         }
 
+
+
+        // biryani............
         food=String(prompt("enter the item"))
         switch(food){
             case "biryani":console.log("biryani is 150");
@@ -47,6 +52,10 @@
         }
 
 
+
+
+
+            // discount..........................
             amount=+prompt("enter the purchase value");
             if(amount<50){
                 console.log("no discont")
@@ -57,14 +66,22 @@
             else if(amount>100 & amount<200){
                 console.log("10% discount")
             }
+            else if(amount>200 & amount<300){
+                console.log("12%discount");
+                
+            }
             else{
                 console.log("15% discount")
             }
 
 
+
+
+
+                // weekdays.........................
             day=prompt("enter a day")
             switch(day){
-                case "monaday":console.log("keep going!");
+                case "monday":console.log("keep going!");
                 break;
                 case "tuesday":console.log("half way three");
                 break;
@@ -78,9 +95,12 @@
                 break;
                 case "sunday":console.log("chitty na bul bul chitty");
                 break;
-                default:console.log("okay beta")
+                default:console.log("enter a valid day  ")
             }
 
+
+
+                //  traffic signal..................
           
                 traffic = prompt("enter signal")
 
@@ -92,12 +112,12 @@
                     console.log("ready to go");
                     
                 }
-                else  {
+                else  if(traffic=='green') {
 
                     console.log("go");
                     
                 }
-
+               
 
 
     </script>
