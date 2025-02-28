@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a JavaScript script that compares two variables using different comparison operators (==, ===, !=, !==, >, <, >=, <=) and prints the results.
+
+        let a=+prompt('enter a first number');
+        let b=Number(prompt('enter a second number'));
+        console.log(a==b);
+        console.log(a!=b);
+        console.log(a>b);
+        console.log(a<b);
+        console.log(a<=b);
+        console.log(a>=b);
+        let c=5;
+        let d="5"
+        console.log(c==d);
+        console.log(c===d);
+        console.log(a!==b);
+       //if the number is even or odd
+       let e=20;
+       let f=e%2==0? "even number":"odd number";
+       console.log(f);
+       let g=21;
+       let h=g%2==1? "odd number":"even number";
+       console.log(h);
+       //Expand the script to include a ternary operation that checks if a user is an adult (18+) or a minor.
+       let age=19;
+       let check=age>18? "Adult":"Minor";
+       console.log(check);
+       //Grade Classification: Declare a variable score and set it to a value between 0 and 100.Use nested ternary operators to classify the score into grades: A (>= 90), B (>= 75), C (>= 60), D (>= 45),and F (below 45). Log the grade.
+       let grade=40;
+       let some=grade>=95? "A": grade>=75? "B":grade>=60? "C":grade>=45? "D":"F";
+       console.log(some);
+       //Temperature Check: Declare a variable temperature and use nested ternary operators to categorize it as "Hot" (above 30), "Warm" (20-30), "Cool" (10-19), and "Cold" (below 10). Log the result.
+       let temp=8;
+       let use=temp>30? "Hot":temp>=20 && temp<=30? "warm":temp>=10 && temp<=19? "cool" :"cold";
+       console.log(use);
+       //Age Group: Declare a variable age and use the ternary operator to classify the age into "Child" (0-12), "Teen" (13-19), "Adult" (20-64),  and "Senior" (65 and above). Log the result.
+       let ages=65;
+       let no=ages>=0 && ages<=12? "child":ages>=13 && ages<=19? "teen":ages>=20 && ages<=64? "adult":"senior";
+       console.log(no);
+    </script>
+</body>
+</html>
