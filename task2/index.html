@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name=document.createElement("h1");
+        name.innerText="KAPULAPURAM NITHIN REDDY";
+        name.style.textAlign='center'
+        name.style.color='red'
+        document.body.append(name);
+
+
+
+            let parent=document.createElement("div")
+            let linkedin=document.createElement('a');
+            let linkedin1=document.createTextNode('linkedin');
+            linkedin.setAttribute('href', 'https://www.linkedin.com/in/nithin0504/')
+            linkedin.append(linkedin1);
+            let git=document.createElement('a');
+            let git1=document.createTextNode('git');
+            git.setAttribute('href', 'https://nithinreddy0504.github.io/css-project-1/')
+            git.append(git1);
+            let gmail=document.createElement("a");
+
+
+        let gmail1=document.createTextNode('nithinreddy0504@gmail.com');
+        gmail.setAttribute('href', 'nithinreddy0504@gmail.com')
+        gmail.append(gmail1)
+        document.body.append(gmail);
+        gmail.style.textDecoration="none";
+        gmail.style.textAlign="center";
+        let contact=document.createElement('b');
+        contact.innerText='+91 9392327141'
+            parent.append(linkedin,git,gmail,contact);
+            parent.style.display='flex';
+            parent.style.justifyContent='space-evenly';
+            document.body.append(parent)
+
+
+
+        
+
+        
+
+
+        // gmail.style.display="flex"
+
+        // gmail.style.justifyContent='center'
+
+
+
+            let line1=document.createElement("hr");
+            document.body.append(line1);
+
+
+            let summary=document.createElement("h2");
+            summary.innerText="Pofile Summary ";
+            summary.style.backgroundColor="grey"
+            summary.style.fontSize="2rem"
+            summary.style.padding="8px"
+            document.body.append(summary);
+
+
+            let summarytext=document.createElement("p");
+            summarytext.innerText="Recent MBA graduate with a strong foundation in business management and technical skills, including HTML, CSS, JavaScript, and Python. Adept at problem-solving, analytical thinking, and effective communication in English, Hindi, and Telugu. Seeking an entry-level role to apply my skills in a dynamic and growth-oriented organization.";
+            summarytext.style.fontSize="1.3rem"
+            document.body.append(summarytext);
+
+
+            let line2=document.createElement("hr");
+            document.body.append(line2);
+
+
+
+            let education=document.createElement("h2");
+            education.innerText="Education";
+            education.style.backgroundColor="grey"
+            education.style.fontSize="2rem"
+            education.style.padding="8px"
+            document.body.append(education);
+
+
+            let mba=document.createElement("h3");
+            mba.innerText="MBA"
+            
+            //  mba.style.textDecoration="underline"
+            document.body.append(mba)
+
+
+
+            let mbaclg=document.createElement("p");
+            mbaclg.innerText="Global Institute of Management"
+            document.body.append(mbaclg)
+
+
+            let mbayear=document.createElement('p');
+            mbayear.innerText=" 84.3 GPA  , 2022-2024"
+            document.body.append(mbayear)
+
+
+            let degree=document.createElement('h3')
+            degree.innerText="Degree"
+            // degree.style.textDecoration="underline"
+            document.body.append(degree)
+
+
+
+            let degreeclg=document.createElement("p");
+            degreeclg.innerText="Royal Degree College  [BA-HPG]"
+            document.body.append(degreeclg)
+
+
+
+            let degreeyear=document.createElement('p');
+            degreeyear.innerText=" 86.1 GPA  , 2019-2022"
+            document.body.append(degreeyear)
+
+
+            let inter=document.createElement('h3');
+            inter.innerText='Intermediate';
+            // inter.style.textDecoration="underline";
+            document.body.append(inter);
+
+            let interclg=document.createElement('p');
+            interclg.innerText='Narayana Junior College'
+            document.body.append(interclg)
+
+            let interyear=document.createElement('p')
+            interyear.innerText="94.7 GPA,  2017-2019"
+            document.body.append(interyear)
+
+
+
+
+
+            let line3=document.createElement("hr");
+            document.body.append(line3);
+            
+
+
+
+
+
+            let skills=document.createElement("h2");
+            skills.innerText="Skills ";
+            skills.style.backgroundColor="grey"
+            skills.style.fontSize="2rem"
+            skills.style.padding="8px"
+            document.body.append(skills);
+
+
+
+
+            let li1=document.createElement('li')
+            let li2=document.createElement('li')
+            let li3=document.createElement('li')
+            let li4=document.createElement('li')
+            let li5=document.createElement('li')
+
+            li1.innerText='Html'
+            li2.innerText='Css'
+            li3.innerText='Java Script'
+            li4.innerText='Critical  Thinking'
+            li5.innerText='Problem Solving'
+
+            document.body.append(li1,li2,li3,li4,li5)
+
+
+            
+            let language=document.createElement("h2");
+            language.innerText="Language";
+            language.style.backgroundColor="grey"
+            language.style.fontSize="2rem"
+            language.style.padding="8px"
+            document.body.append(language);
+
+            let li6=document.createElement('li')
+            let li7=document.createElement('li')
+            let li8=document.createElement('li')
+
+            li6.innerText='English'
+            li7.innerText='Telugu'
+            li8.innerText='Hindi'
+            document.body.append(li6,li7,li8)
+
+
+
+
+
+
+
+            document.body.style.backgroundColor="skyblue"
+
+
+
+
+
+    </script>
+</body>
+</html>

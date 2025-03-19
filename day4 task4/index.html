@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // to find even numbers from 1 to 20
+      for (var i = 2; i <= 20; i++) {
+        if (i % 2 == 0) console.log(i);
+      }
+      
+
+
+
+      // to find 5 multiple from 1-50
+
+      for (var i = 1; i <= 50; i++) {
+        if (i % 5 == 0) console.log(i);
+      }
+
+
+
+
+
+      // to find sum  of values from 1 -100
+      var you = 0;
+      for (var i = 1; i <= 100; i++) {
+        you= you+i;
+      }
+
+      console.log(you);
+
+
+
+
+      // to find factorial of a number
+      var n = 1;
+      var num = +prompt("enter the number");
+      for (var i = 1; i <= num; i++) {
+        n*= i;
+        console.log(n);
+      }
+
+ 
+
+
+      //by using ASCII values we print the alphabets from A to Z
+
+      for (i = 65; i <= 90; i++) {
+        console.log(String.fromCharCode(i));
+      }
+
+
+
+      //tables from 1 to 10
+      for (i = 1; i <= 5; i++) {
+        for (j = 1; j <= 10; j++) {
+          console.log(i, "*", j, "=", i * j);
+        }
+      }
+    </script>
+  </body>
+</html>

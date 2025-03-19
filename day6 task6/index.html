@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        // reversed string  of for..in
+      let str = "hello";
+      let reversed = "";
+      for (let i in str) {
+        reversed = str[i] + reversed;
+      }
+      console.log(reversed);
+
+
+
+      // for..of...............
+
+      let str1 = "hello";
+      let reversed1 = "";
+      for (let i of str) {
+        reversed = i + reversed1;
+      }
+      console.log(reversed);
+
+       
+
+    //    find a even numbers in an array - [23,54,67,64,46,95,98]
+
+                // for in
+                let arr= [23,54,67,64,46,95,98]
+               for(let i in arr){
+               if(arr[i]%2==0)
+               console.log(arr[i])  
+               }
+               
+               // for off----
+               let arr1= [23,54,67,64,46,95,98]
+               for(let i of arr1){
+               if(i%2==0)
+               console.log(i)
+                   
+               }
+
+
+
+
+
+
+
+
+            //       fina a minindex and maxindex of a given number
+            //  num=[6,8,9,2,0,2,1]
+            //  minindex=4
+            //  maxindex=2
+
+
+            let num = [6, 8, 9, 2, 0, 2, 1];
+
+                let minIndex = 0;
+                let maxIndex = 0;
+                
+                for (let i in num) {
+                    if (num[i] < num[minIndex]) {
+                        minIndex = i; 
+                    }
+                    if (num[i] > num[maxIndex]) {
+                        maxIndex = i;  
+                    }
+                    
+                }
+                console.log("minIndex:", minIndex); 
+                console.log("maxIndex:", maxIndex);
+
+
+
+
+    </script>
+  </body>
+</html>
